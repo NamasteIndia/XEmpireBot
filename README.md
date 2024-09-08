@@ -1,8 +1,5 @@
 # Bot for [X Empire](https://alexell.pro/cc/xempire) (Musk Empire)
 
-![image](https://github.com/user-attachments/assets/8716f8fa-f838-4485-9828-dc67bd6fa70e)
-
-
 ![img1](.github/images/demo.png)
 
 > 🇷🇺 README на русском доступен [здесь](README-RU.md)
