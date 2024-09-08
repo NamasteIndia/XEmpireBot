@@ -20,11 +20,16 @@
 | Investing in funds (combo for profit) |     ✅     |
 | Automatic skill improvement           |     ✅     |
 | Docker                                |     ✅     |
+| Koyeb Support (Rev-2.0)               |     ✅     |
+| Get Log in Telegram (Rev-2.0)         |     ✅     |
 
 ## [Options](https://github.com/Alexell/XEmpireBot/blob/main/.env-example)
 | Option                  | Description                                                                                |
 |-------------------------|--------------------------------------------------------------------------------------------|
 | **API_ID / API_HASH**   | Platform data for launching a Telegram session                                             |
+| **BOT_TOKEN**           | Telegram Bot token from @Botfather                                                         |
+| **CHAT_ID**             | Telegram Group or Channel ID, where the bot will post the logs (-1002468360469)            |
+| **USE_TG_BOT**          | To turn on Telegram logs feature (True / False)                                            |
 | **TAPS_ENABLED**        | Taps enabled (True / False)                                                                |
 | **TAPS_PER_SECOND**     | Random number of taps per second (e.g. [20,30], max. 30)                                   |
 | **INVEST_ENABLED**      | Investments enabled (True / False)                                                         |
@@ -76,7 +81,7 @@ apt install build-essential python3-dev
 
 ## Running in Docker
 ```
-$ git clone https://github.com/Alexell/XEmpireBot.git
+$ git clone https://github.com/namasteindia/XEmpireBot-2.0.git
 $ cd XEmpireBot
 $ cp .env-example .env
 $ nano .env # specify your API_ID and API_HASH, the rest can be left as default
@@ -95,9 +100,9 @@ $ docker run -d --restart unless-stopped --name XEmpireBot -v .:/app xempire_bot
 ```
 
 ## Manual installation
-You can download [**Repository**](https://github.com/Alexell/XEmpireBot) by cloning it to your system and installing the necessary dependencies:
+You can download [**Repository**](https://github.com/namasteindia/XEmpireBot-2.0) by cloning it to your system and installing the necessary dependencies:
 ```
-$ git clone https://github.com/Alexell/XEmpireBot.git
+$ git clone https://github.com/namasteindia/XEmpireBot-2.0.git
 $ cd XEmpireBot
 
 # Linux
